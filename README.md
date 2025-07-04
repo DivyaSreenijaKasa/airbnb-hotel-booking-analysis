@@ -22,9 +22,17 @@ The dataset used is `Airbnb_Data.csv`, which contains information on hosts, prop
 - Created insightful visualizations using Seaborn and Matplotlib
 
 📈 Sample Insights
-- Properties with more than 2 bedrooms and WiFi tend to get higher ratings
-- Verified hosts with profile pictures are more trusted and booked more often
-- New York listings dominate high-rated categories
+-High ratings are more frequent in specific cities, especially where listings have more amenities and verified hosts.
+
+-Listings with WiFi and multiple bedrooms are more likely to have better reviews — indicating comfort and utility are key for travelers.
+
+-Host credibility (verification + profile picture) plays a significant role in trust and visibility.
+
+-Instant booking is a highly valued feature — filtered together with other host factors for refined listing analysis.
+
+-Room type availability shows what kind of spaces are most commonly listed (entire homes vs. shared rooms).
+
+-Cancellation policy and pricing can influence review scores — explored using median-based stats.
 
 📂 Files
 - `Hotel_Booking_Analysis.ipynb`: Main notebook with code and visualizations
